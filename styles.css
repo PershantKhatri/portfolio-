@@ -362,15 +362,44 @@ nav a:hover::after{
 
 /* Responsive */
 
-@media (max-width:992px){
+@media (max-width:768px){
+
+    .portfolio{
+        width:95%;
+    }
+
+    .navbar{
+        flex-direction:column;
+        text-align:center;
+        gap:20px;
+    }
+
+    nav{
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:15px;
+    }
+
+    .nav-icons{
+        justify-content:center;
+    }
 
     .hero{
         grid-template-columns:1fr;
         text-align:center;
-        gap:50px;
+        gap:40px;
+    }
+
+    .hero h1{
+        font-size:50px;
+    }
+
+    .intro{
+        font-size:32px;
     }
 
     .text{
+        max-width:100%;
         margin:auto;
     }
 
@@ -378,64 +407,102 @@ nav a:hover::after{
         margin:20px auto;
     }
 
-    .center img{
-        height:420px;
+    .center{
+        order:-1;
     }
 
     .circle{
-        width:320px;
-        height:320px;
+        width:280px;
+        height:280px;
+    }
+
+    .center img{
+        height:300px;
+        margin-right:0;
+    }
+
+    .right span,
+    .right h3,
+    .right a{
+        margin-left:0;
+    }
+
+    .social{
+        justify-content:center;
+        margin-left:0;
     }
 
     .brands{
         grid-template-columns:repeat(2,1fr);
+        margin-top:40px;
     }
 
     .services{
         grid-template-columns:1fr;
-        gap:50px;
+        gap:40px;
+    }
+
+    .services-left{
+        text-align:center;
+    }
+
+    .stats{
+        grid-template-columns:repeat(2,1fr);
+        text-align:center;
     }
 
     .cards{
         grid-template-columns:1fr;
     }
 
-    .navbar{
+    .service-item{
         flex-direction:column;
-        gap:25px;
+        text-align:center;
     }
 
-    nav{
-        gap:20px;
-        flex-wrap:wrap;
-        justify-content:center;
+    .service-item img{
+        width:100%;
+        max-width:280px;
+        height:auto;
+        margin:0 0 20px;
     }
 }
 
-@media (max-width:576px){
 
-    .portfolio{
-        width:94%;
-    }
+/* Small Mobile */
+
+@media (max-width:480px){
 
     .hero h1{
-        font-size:48px;
+        font-size:38px;
     }
 
     .intro{
-        font-size:30px;
+        font-size:24px;
     }
 
     .services-left h2{
-        font-size:34px;
+        font-size:30px;
     }
 
-    .center img{
-        height:300px;
+    .card h3{
+        font-size:22px;
+    }
+
+    .card p{
+        font-size:16px;
+    }
+
+    .service-item h4{
+        font-size:22px;
     }
 
     .circle{
-        width:240px;
+        width:220px;
+        height:220px;
+    }
+
+    .center img{
         height:240px;
     }
 
@@ -447,17 +514,7 @@ nav a:hover::after{
         grid-template-columns:1fr;
     }
 
-    .service-item{
-        flex-direction:column;
-        text-align:center;
-        gap:20px;
-    }
-
-    .service-item img{
-        margin-right:0;
-    }
-
-    .card{
-        padding:25px;
+    .brand{
+        font-size:20px;
     }
 }
