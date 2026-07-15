@@ -397,13 +397,13 @@ nav a:hover::after {
 
   /* Small Mobile Profile Image Scale Reductions */
   .center img { 
-    height: 240px !important; 
-    width: 240px !important; 
+    height: 280px !important; 
+    width: 2800px !important; 
   } 
 
   .circle { 
-    width: 240px !important; 
-    height: 240px !important; 
+    width: 2800px !important; 
+    height: 280px !important; 
   } 
 
   /* Small Screen Content Formats Single Stack Grid Rules */
