@@ -90,9 +90,8 @@ nav a:hover::after {
   cursor: pointer; 
 } 
 
-/* ==========================================================================
-   3. HERO BANNER SECTION (Desktop)
-   ========================================================================== */
+/* HERO SECTION */
+
 .hero { 
   display: grid; 
   grid-template-columns: 1fr 1fr 1fr; 
@@ -354,9 +353,8 @@ nav a:hover::after {
   transform: translateY(-10px); 
 } 
 
-/* ==========================================================================
-   7. TABLET LAYOUTS - MEDIA QUERY (992px)
-   ========================================================================== */
+/* TABLET RESPONSIVE */
+
 @media (max-width: 992px) {
   .navbar { 
     flex-direction: column; 
@@ -522,9 +520,8 @@ nav a:hover::after {
   } 
 } 
 
-/* ==========================================================================
-   8. SMARTPHONES - MEDIA QUERY (576px)
-   ========================================================================== */
+/* MOBILE RESPONSIVE */
+
 @media (max-width: 576px) { 
   .portfolio { 
     width: 92%; 
