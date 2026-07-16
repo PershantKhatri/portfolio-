@@ -575,7 +575,7 @@ nav a:hover::after {
     display: grid !important;
     grid-template-columns: repeat(2, 1fr) !important; 
     gap: 10px;
-    margin-top: -50px !important; 
+    margin-top: -35px !important; 
   } 
 
   .brand {
